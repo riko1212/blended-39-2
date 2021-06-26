@@ -55,3 +55,57 @@ color: var(--secondary-color);
 .nav-item:not(:last-child) {
     margin-right: 40px;
 }
+
+/* ===============hero================ */
+.hero {
+  padding-top: 219px;
+  padding-bottom: 335px;
+  background-color: grey;
+}
+
+.hero-text {
+margin-bottom: 20px;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+text-align: center;
+
+color: var(--secondary-color);
+}
+
+.hero-title {
+max-width: 829px;
+margin: 0 auto 50px;
+font-weight: 800;
+font-size: 48px;
+line-height: 1.33;
+text-align: center;
+
+color: var(--header-color);
+}
+
+.btn {
+display: block;
+width: 200px;
+height: 45px;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+text-align: center;
+
+color: var(--secondary-color);
+
+background: #4985FF;
+box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+border-radius: 30px;
+border: none;
+cursor: pointer;
+}
+
+.hero-btn {
+  margin: 0 auto;
+}
+
+/* ===============hero================ */
