@@ -1,0 +1,57 @@
+:root {
+  --main-color: #999999;
+  --secondary-color: #FFFFFF;
+  --header-color: #ffffff;
+  --second-header-color:#323232;
+  --accent-color: #4985FF;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--main-color);
+}
+
+.header {
+    background-color: var(--main-color);
+    padding: 40px 0px;
+}
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.nav-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+color: var(--secondary-color);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
