@@ -12,7 +12,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
+  
+  
+  
+    <link rel="stylesheet" href="./css/style.css">
   <title>IT Studio</title>
 </head>
 
@@ -42,14 +56,14 @@
   </header>
   <main>
     <section class="hero">
-      <p class="hero-text">Передовая IT студия</p>
-      <h1 class="hero-title">Мы создаем легкие решения сложных задач и проблем</h1>
+      <p class="hero-text ">Передовая IT студия</p>
+      <h1 class="hero-title wow bounceInUp">Мы создаем легкие решения сложных задач и проблем</h1>
       <button class="hero-btn btn" type="button">Наши проекты</button>
     </section>
 
     <section class="mobile">
       <div class="container">
-        <h2 class="mobile-title title">Мы создаем мобильные приложения<br />для крупных корпораций</h2>
+        <h2 class="mobile-title animate__animated animate__bounce animate__infinite	infinite title">Мы создаем мобильные приложения<br />для крупных корпораций</h2>
         <p class="mobile-text text">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
@@ -89,7 +103,7 @@
     <!--Standart-->
     <section>
       <div>
-        <h2>Высокие стандарты разработки</h2>
+        <h2 class="wow rubberBand">Высокие стандарты разработки</h2>
         <p>
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
@@ -125,7 +139,7 @@
     <section class="work">
       <div class="container">
         <div class="work-top">
-<h2 class=" work-title title" >Наши работы, на которых<br>мы специализируемся</h2>
+<h2 class=" work-title title wow flash" >Наши работы, на которых<br>мы специализируемся</h2>
 <button type="button" class="btn work-btn">Все услуги</button>
         </div>
       
@@ -239,7 +253,7 @@
             текстов на латинице с начала XVI века.</p>
           <a href="">Подробнее</a>
         </li>
-        <li class="work-item">
+        <li class="work-item d">
           <img src="./images/our_projects.jpg" alt="4 парня за компьтером">
           <h3> <span>01.</span> Исследование и упаковка</h3>
           <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
@@ -266,20 +280,22 @@
       <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
         "рыбой" для
         текстов на латинице с начала XVI века.</p>
-      <ul>
-        <li>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <img src="./images/koding.png" alt="Процесс написания кода" width="255" height="255">
-        </li>
-        <li>
+        </div>
+        <div class="col-lg-3  col-md-4 col-sm-6 mb-4">
           <img src="./images/koding.png" alt="Процесс написания кода" width="255" height="255">
-        </li>
-        <li>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <img src="./images/koding.png" alt="Процесс написания кода" width="255" height="255">
-        </li>
-        <li>
-          <img src="./images/koding.png" alt="Процесс написания кода" width="255" height="255">
-        </li>
-      </ul>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-sm-flex d-md-block d-lg-flex justify-content-between align-items-center">
+          <div>a</div>
+          <div>b</div>
+          <div>c</div>
+        </div>
+      </div>
       <button type="button">Все проекты </button>
     </section>
 
@@ -302,6 +318,86 @@
 
     </section>
   </main>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Марс
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds
+          the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+          as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
+          default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Юпитер
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+          well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
+          default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+          aria-expanded="false" aria-controls="collapseThree">
+          Уран
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+          well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
+          default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer>
     <ul>
       <li>
@@ -374,6 +470,28 @@
     </ul>
     <p>(с) 2019. Все права защищены.</p>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $('.work-list').slick({
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          autoplay: true,
+          dots: true
+        });
+    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        new WOW().init();
+      </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
